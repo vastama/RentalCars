@@ -28,7 +28,7 @@
 	.choose-content-wrap ul.nav-tabs .nav-item {
 		margin-bottom: 0 !important;
 	}
-	.single-pricing-table,
+	.single-Расценки-table,
 	.single-footer-widget {
 		margin-bottom: 0;
 	}
@@ -127,7 +127,7 @@
 	.single-service-item:nth-child(2n+2) .service-item-content {
 		padding-left: 0;
 	}
-	.pricing-details-content .col-lg-6:nth-child(3) .single-pricing-table,
+	.Расценки-details-content .col-lg-6:nth-child(3) .single-Расценки-table,
 	.single-our-facility {
 		margin-bottom: 0;
 	}
@@ -164,12 +164,12 @@
 	.choose-content-wrap ul.nav-tabs .nav-item {
 		margin-bottom: 0 !important;
 	}
-	.single-pricing-table,
+	.single-Расценки-table,
 	.single-footer-widget {
 		margin-bottom: 50px;
 	}
 	#footer-area .col-lg-4:last-child .single-footer-widget,
-	#pricing-area .col-lg-4:last-child .single-pricing-table {
+	#Расценки-area .col-lg-4:last-child .single-Расценки-table {
 		margin-bottom: 0;
 	}
 	#mobile-app-area::after {
@@ -282,7 +282,7 @@
 	.single-our-facility {
 		margin-bottom: 50px;
 	}
-	.pricing-details-content .col-lg-6:nth-child(3) .single-pricing-table {
+	.Расценки-details-content .col-lg-6:nth-child(3) .single-Расценки-table {
 		margin-bottom: 0;
 	}
 
@@ -315,12 +315,12 @@
 	.choose-content-wrap ul.nav-tabs li.nav-item {
 		margin-bottom: 10px !important;
 	}
-	.single-pricing-table,
+	.single-Расценки-table,
 	.single-footer-widget {
 		margin-bottom: 50px;
 	}
 	#footer-area .col-lg-4:last-child .single-footer-widget,
-	#pricing-area .col-lg-4:last-child .single-pricing-table {
+	#Расценки-area .col-lg-4:last-child .single-Расценки-table {
 		margin-bottom: 0;
 	}
 	#mobile-app-area::after {

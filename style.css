@@ -30,9 +30,9 @@
 *	08. Home 3 Service Area CSS Start
 *	09. Fun Fact Area CSS Start
 *	10. Choose Car Area CSS Start
-*		10.1 - Popular Cars Css Start
-*		10.2 - Newest Cars Css Start
-*	11. Pricing Area CSS Start
+*		10.1 - Popular Автомобили Css Start
+*		10.2 - Newest Автомобили Css Start
+*	11. Расценки Area CSS Start
 *	12. Testimonial Area CSS Start
 *	13. Mobile Apps CSS Start
 *	14. Article Area CSS Start
@@ -49,7 +49,7 @@
 *		18.2 - Book Car CSS
 *		18.3 - What Do Area CSS
 *		18.4 - What Choose CSS
-*		18.5 - Our Cars CSS
+*		18.5 - Our Автомобили CSS
 *	19. Car Page Css Start
 *		19.1 Page Title CSS
 *		19.2 Car List CSS
@@ -743,7 +743,7 @@ a.slicknav_btn {
 }
 
 
-/* Popular Cars Css Start */
+/* Popular Автомобили Css Start */
 
 .popucar-menu {
 	display: -webkit-box;
@@ -910,9 +910,9 @@ a.slicknav_btn {
 }
 
 
-/* Popular Cars Css End */
+/* Popular Автомобили Css End */
 
-/* Newest Cars Css Start */
+/* Newest Автомобили Css Start */
 
 .newcar-menu {
 	display: -webkit-box;
@@ -1008,39 +1008,39 @@ a.slicknav_btn {
 	width: 100%;
 }
 
-/* Newest Cars Css End */
+/* Newest Автомобили Css End */
 
 /*== Choose Car Area CSS End ==*/
 
-/*== Pricing Area CSS Start ==*/
+/*== Расценки Area CSS Start ==*/
 
-#pricing-area {
-	background-image: url(assets/img/pricing-bg.jpg);
+#Расценки-area {
+	background-image: url(assets/img/Расценки-bg.jpg);
 	background-size: cover;
 	background-position: center center;
 }
 
-.single-pricing-table {
+.single-Расценки-table {
 	background-color: rgba(255, 255, 255, 0.15);
 	color: #fff;
 	padding: 50px 0 0;
 }
 
-.single-pricing-table h3 {
+.single-Расценки-table h3 {
 	color: #fff;
 	font-size: 23px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 
-.single-pricing-table h2 {
+.single-Расценки-table h2 {
 	color: #ffc714;
 	font-size: 40px;
 	margin: 10px 0;
 	text-transform: uppercase;
 }
 
-.single-pricing-table h5 {
+.single-Расценки-table h5 {
 	color: #ccc;
 	font-size: 14px;
 }
@@ -1060,7 +1060,7 @@ a.slicknav_btn {
 	border-top: 1px solid #999;
 }
 
-/*== Pricing Area CSS End ==*/
+/*== Расценки Area CSS End ==*/
 
 /*== Testimonial Area CSS Start ==*/
 
@@ -2120,7 +2120,7 @@ body,
 
 /*== What Choose CSS ==*/
 
-/*== Our Cars CSS ==*/
+/*== Our Автомобили CSS ==*/
 
 .ourcar-tab-menu .nav {
 	background-color: #ffd000;
@@ -2209,7 +2209,7 @@ body,
 	width: 100%;
 }
 
-/*== Our Cars CSS ==*/
+/*== Our Автомобили CSS ==*/
 
 /*==========================
     Car Page Css Start
@@ -2870,7 +2870,7 @@ body,
     Packages Page Css
 ================================*/
 
-.pricing-details-content .single-pricing-table {
+.Расценки-details-content .single-Расценки-table {
 	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 	color: #000;
@@ -2880,23 +2880,23 @@ body,
 	transition: 0.4s;
 }
 
-.pricing-details-content .single-pricing-table:hover {
+.Расценки-details-content .single-Расценки-table:hover {
 	background-color: #ffd000;
 }
 
-.pricing-details-content .single-pricing-table:hover h2 {
+.Расценки-details-content .single-Расценки-table:hover h2 {
 	color: #fff;
 }
 
-.pricing-details-content .single-pricing-table:hover h5 {
+.Расценки-details-content .single-Расценки-table:hover h5 {
 	color: #000;
 }
 
-.pricing-details-content .single-pricing-table h3 {
+.Расценки-details-content .single-Расценки-table h3 {
 	color: #222;
 }
 
-.pricing-details-content .col-lg-6:last-child .single-pricing-table {
+.Расценки-details-content .col-lg-6:last-child .single-Расценки-table {
 	margin-bottom: 0;
 }
 
