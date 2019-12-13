@@ -62,7 +62,8 @@
 
                     <!--== Single HeaderTop Start ==-->
                     <div class="col-lg-3 text-center">
-                        <i class="fa fa-mobile"></i> +972-58-771-0101
+                        <img src="assets/img/whatsapp.gif" height="20" width="20" alt="Whatsapp"/><a href="https://wa.me/972587710101?text=Я%20заинтересован%20в%20аренде%20авто%20в%20Израиле"/> Whatsapp +972-58-771-0101</a>
+                        <!--<i class="fa fa-mobile"></i>-->
                     </div>
                     <!--== Single HeaderTop End ==-->
 
@@ -92,25 +93,25 @@
             <div class="container">
                 <div class="row">
                     <!--== Logo Start ==-->
-                    <div class="col-lg-4">
+                    <!--<div class="col-lg-4">
                         <a href="index.html" class="logo">
                             <img src="assets/img/rentcar_logo.png" alt="JSOFT">
                         </a>
-                    </div>
+                    </div>-->
                     <!--== Logo End ==-->
 
                     <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
+                    <!--<div class="col-lg-8 d-none d-xl-block">
                         <nav class="mainmenu alignright">
                             <ul>
-                               <!-- <li class="active"><a href="#">Home</a>
+                               &lt;!&ndash; <li class="active"><a href="#">Home</a>
                                     &lt;!&ndash; <ul>
                                         <li><a href="index.html">Home 1</a></li>
                                         <li><a href="index2.html">Home 2</a></li>
                                         <li><a href="index3.html">Home 3</a></li>
                                     </ul> &ndash;&gt;
-                                </li>-->
-                                <!--<li><a href="about.html">О Нас</a></li>
+                                </li>&ndash;&gt;
+                                &lt;!&ndash;<li><a href="about.html">О Нас</a></li>
                                 <li><a href="services.html">Услуги</a></li>
                                 <li><a href="#">Автомобили</a>
                                     &lt;!&ndash;<ul>
@@ -119,8 +120,8 @@
                                         <li><a href="car-without-sidebar.html">Car Without Sidebar</a></li>
                                         <li><a href="car-details.html">Car Details</a></li>
                                     </ul>&ndash;&gt;
-                                </li>-->
-                                <!--<li><a href="index.html">Pages</a>
+                                </li>&ndash;&gt;
+                                &lt;!&ndash;<li><a href="index.html">Pages</a>
                                     <ul>
                                         &lt;!&ndash;<li><a href="package.html">Расценки</a></li>
                                         <li><a href="driver.html">Driver</a></li>
@@ -131,17 +132,17 @@
                                         <li><a href="register.html">Register</a></li>
                                         <li><a href="404.html">404</a></li>&ndash;&gt;
                                     </ul>
-                                </li>-->
-                                <!--<li><a href="#">Blog</a>
+                                </li>&ndash;&gt;
+                                &lt;!&ndash;<li><a href="#">Blog</a>
                                     <ul>
                                         <li><a href="article.html">Blog Page</a></li>
                                         <li><a href="article-details.html">Blog Details</a></li>
                                     </ul>
-                                </li>-->
-                                <!--<li><a href="contact.html">Связь с нами</a></li>-->
+                                </li>&ndash;&gt;
+                                &lt;!&ndash;<li><a href="contact.html">Связь с нами</a></li>&ndash;&gt;
                             </ul>
                         </nav>
-                    </div>
+                    </div>-->
                     <!--== Main Menu End ==-->
                 </div>
             </div>
@@ -161,7 +162,7 @@
                             <form id="main-contact-form" name="contact-form" method="post" action="sendEmail.php" accept-charset="UTF-8">
                                 <!--== Pick Up Location ==-->
                                 <div class="pickup-location book-item">
-                                    <h4>PICK-UP LOCATION:</h4>
+                                   <!-- <h4>PICK-UP LOCATION:</h4>-->
                                     <select class="custom-select">
                                         <option value="">Отделение</option>
                                         <option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
@@ -192,11 +193,11 @@
 
                                 <!--== Pick Up Date ==-->
                                 <div class="pick-up-date book-item">
-                                    <h4>PICK-UP DATE:</h4>
+                                    <!--<h4>PICK-UP DATE:</h4>-->
                                     <input id="startDate" placeholder="Pick Up Date" />
 
                                     <div class="return-car">
-                                        <h4>Return DATE:</h4>
+                                        <!--<h4>Return DATE:</h4>-->
                                         <input id="endDate" placeholder="Return Date" />
                                     </div>
                                 </div>
@@ -204,7 +205,7 @@
 
                                 <!--== Car Choose ==-->
                                 <div class="choose-car-type book-item">
-                                    <h4>CHOOSE CAR TYPE:</h4>
+                                    <!--<h4>CHOOSE CAR TYPE:</h4>-->
                                     <select class="custom-select">
                                         <option value="" >Категории автомобилей</option>
                                         <option value="Category Q" >Fiat 500(два места) или похожая в категории Q - от 24$ в сутки(франшиза - 475$)</option>
@@ -234,8 +235,25 @@
                                 </div>
                                 <!--== Car Choose ==-->
 
+                                <div class="input-group pick-up">
+
+                                    <input type="text" name="Customer_name" required  placeholder="Имя на английском(как в правах)">
+                                </div>
+                                <div class="input-group pick-up">
+
+                                    <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required id="email"  placeholder="Ваша почта">
+                                </div>
+                                <div class="input-group pick-up">
+
+                                    <input type="text" name="phone" required  placeholder="Ваш телефон-whatsapp-viber включая код страны" >
+                                </div>
+                                У меня есть международные права и кредитная карта
+
+
+
                                 <div class="book-button text-center">
-                                    <button class="book-now-btn">Заказать</button>
+                                    <button class="book-now-btn">Заказать</button> или
+                                    <img src="assets/img/whatsapp.gif" height="20" width="20" alt="Whatsapp"/><a href="https://wa.me/972587710101?text=Я%20заинтересован%20в%20аренде%20авто%20в%20Израиле"/> WhatsApp</a>
                                 </div>
                             </form>
                         </div>
@@ -253,6 +271,7 @@
                                     <br><img src="assets/img/star.gif" height="20" width="20" alt="Отделения по аренде прокату автомобилей во всех крупных городах Израиля"/>Неограниченный километраж при заказе 3-29 дней
                                     <br><img src="assets/img/star.gif" height="20" width="20" alt="Огромные скидки при бронирование автомобиля на 30+ дней"/>Огромные скидки при бронировании автомобиля на 30+ дней
                                     <br><img src="assets/img/star.gif" height="20" width="20" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке"/>Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке.
+                                    <img src="assets/img/whatsapp.gif" height="20" width="20" alt="Whatsapp"/><a href="https://wa.me/972587710101?text=Я%20заинтересован%20в%20аренде%20авто%20в%20Израиле"/> Whatsapp</a>
                                 </div>
                             </div>
                         </div>
