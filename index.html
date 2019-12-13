@@ -158,16 +158,34 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="book-a-car">
-                            <form action="index.html">
+                            <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php" accept-charset="UTF-8">
                                 <!--== Pick Up Location ==-->
                                 <div class="pickup-location book-item">
                                     <h4>PICK-UP LOCATION:</h4>
                                     <select class="custom-select">
-                                      <option selected>Select</option>
-                                      <option value="1">Dhaka</option>
-                                      <option value="2">Comilla</option>
-                                      <option value="3">Barishal</option>
-                                      <option value="3">Rangpur</option>
+                                        <option value="">Отделение</option>
+                                        <option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
+                                        <option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
+                                        <option value="Тель Авив, ул. ха-Масгер, 9">Тель Авив, ул. ха-Масгер, 9</option>
+                                        <option value="Иерусалим, ул. Кинг Давид, 19">Иерусалим, ул. Кинг Давид, 19</option>
+                                        <option value="Хайфа, 27 Haashlag Street">Хайфа, 27 Haashlag Street</option>
+                                        <option value="Нетания, ул. Усишкин, 1">Нетания, ул. Усишкин, 1</option>
+                                        <option value="Тверия, ул. ха-Ярден, 71">Тверия, ул. ха-Ярден, 71</option>
+                                        <option value="Эйлат, ул. Шешет ха-Ямим, 3">Эйлат, ул. Шешет ха-Ямим, 3</option>
+                                        <option value="Афула, ул. Менахем Бегин, 70">Афула, ул. Менахем Бегин, 70</option>
+                                        <option value="Ашдод, ул. ха-Оргим, 7">Ашдод, ул. ха-Оргим, 7</option>
+                                        <option value="Беэр Шева, дерех Хеврон, 129">Беэр Шева, дерех Хеврон, 129</option>
+                                        <option value="Бейт Шемеш, ул. Нахалат Зоар, 10">Бейт Шемеш, ул. Нахалат Зоар, 10</option>
+                                        <option value="Бней Брак, ул. Каханман, 106">Бней Брак, ул. Каханман, 106</option>
+                                        <option value="Бней Брак, ул. Мивца Кадош, 64">Бней Брак, ул. Мивца Кадош, 64</option>
+                                        <option value="Герцелия, ул. Аба Евен, 8">Герцелия, ул. Аба Евен, 8</option>
+                                        <option value="Холон, ул. ха-Меркава, 73">Холон, ул. ха-Меркава, 73</option>
+                                        <option value="Кфар Саба, ул. ха-Таяс, 17">Кфар Саба, ул. ха-Таяс, 17</option>
+                                        <option value="Кирьят Шмона, ул. ха-Ярден, 1">Кирьят Шмона, ул. ха-Ярден, 1</option>
+                                        <option value="Нес Циона, ул. ха-Патиш, 10">Нес Циона, ул. ха-Патиш, 10</option>
+                                        <option value="Петах Тиква, ул. Жаботински, 82">Петах Тиква, ул. Жаботински, 82</option>
+                                        <option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
+                                        <option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
                                     </select>
                                 </div>
                                 <!--== Pick Up Location ==-->
@@ -188,10 +206,30 @@
                                 <div class="choose-car-type book-item">
                                     <h4>CHOOSE CAR TYPE:</h4>
                                     <select class="custom-select">
-                                      <option selected>Select</option>
-                                      <option value="1">BMW</option>
-                                      <option value="2">Audi</option>
-                                      <option value="3">Lexus</option>
+                                        <option value="" >Категории автомобилей</option>
+                                        <option value="Category Q" >Fiat 500(два места) или похожая в категории Q - от 24$ в сутки(франшиза - 475$)</option>
+                                        <option value="Category B" >Suzuki Alto(механика) или похожая в категории B - от 24$ в сутки(франшиза - 475$)</option>
+                                        <option value="Category C" >Kia Picanto(робот) или похожая в категории C - от 25$ в сутки(франшиза - 475$)</option>
+                                        <option value="Category D" >Hyundai i20(автомат) или похожая в категории D - от 26$ в сутки(франшиза - 475$)</option>
+                                        <option value="Category E" >Ford Fiesta(автомат) или похожая в категории E - от 27$ в сутки(франшиза - 475$)</option>
+                                        <option value="Category F" >Hyundai i25(автомат) или похожая в категории F - от 30$ в сутки(франшиза - 475$)</option>
+                                        <option value="Category FX" >Renault Megane Coupe(автомат) или похожая в категории FX - от 31$ в сутки(франшиза - 475$)</option>
+                                        <option value="Category I" >Mazda 3(автомат) или похожая в категории I - от 32$ сутки(франшиза - 475$)</option>
+                                        <option value="Category IW" >Ford Focus SW(автомат) или похожая в категории IW - от 34$ сутки(франшиза - 475$)</option>
+                                        <option value="Category H" >Honda Civic(автомат) или похожая в категории H - от 41$ в сутки(франшиза - 715$)</option>
+                                        <option value="Category M" >Mazda 6(автомат) или похожая в категории M - от 47$ в сутки(франшиза - 715$)</option>
+                                        <option value="Category MH" >Hyundai Sonata(автомат) или похожая в категории MH - от 57$ в сутки(франшиза - 715$)</option>
+                                        <option value="Category T" >Fiat Doblo(механика, 5 мест) или похожая в категории T - от 60$ в сутки(франшиза - 475$)</option>
+                                        <option value="Category J" >Hyundai Tucson(автомат, 5 мест) или похожая в категории J - от 63$ в сутки(франшиза - 715$)</option>
+                                        <option value="Category U" >Opel Zafira(автомат, 7 мест) или похожая в категории U - от 60$ в сутки(франшиза - 715$)</option>
+                                        <option value="Category V" >Mitsubishi Outlander(автомат, 7 мест) или похожая в категории V - от 77$ в сутки(франшиза - 960$)</option>
+                                        <option value="Category V8" >Kia Carnival(автомат, 8 мест) или похожая в категории V8 - от 120$ в сутки(франшиза - 960$)</option>
+                                        <option value="Category Y" >Citroen Jumpy(механика, 9 мест)или похожая в категории Y - от 94$ в сутки(франшиза - 960$)</option>
+                                        <option value="Category Z" >Ford Transit(автомат, 9 мест) или похожая в категории Z - от 131$ в сутки(франшиза - 960$)</option>
+                                        <option value="Category P" >Nissan Maxima(автомат) или похожая в категории P - от 116$ в сутки(франшиза - 960$)</option>
+                                        <option value="Category K" >BMW 318i(автомат) или похожая в категории K - от 84$ в сутки(франшиза - 960$)</option>
+                                        <option value="Category W" >Audi A6(автомат) или похожая в категории W - от 155$ в сутки(франшиза - 960$)</option>
+                                        <option value="Category O" >Ford Edge(автомат) или похожая в категории O - от 174$ в сутки(франшиза - 960$)</option>
                                     </select>
                                 </div>
                                 <!--== Car Choose ==-->
@@ -208,7 +246,8 @@
                             <div class="display-table-cell">
                                 <div class="slider-right-text">
                                     <h1>BOOK A CAR TODAY!</h1>
-                                    <p>FOR AS LOW AS $10 A DAY PLUS 15% DISCOUNT <br> FOR OUR RETURNING CUSTOMERS</p>
+                                    Заполните форму и наш сотрудник свяжется с вами.
+                                    <br />Консультация на русском языке бесплатна и без обязательств </p>
                                 </div>
                             </div>
                         </div>
