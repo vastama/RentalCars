@@ -56,7 +56,7 @@ $body = wordwrap($body, 70, "\r\n");
 
 $headers = [
     'MIME-Version: 1.0',
-    'Content-type: text/plain; charset=UTF8',
+    'Content-Type: text/html; charset=utf-8',
     "From: $name <$from>",
     "Reply-To: <$from>",
     "Subject: $subject",
