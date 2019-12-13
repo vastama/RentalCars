@@ -8,27 +8,27 @@ $from = !empty($_POST['email']) ? filter_var(trim($_POST['email']), FILTER_SANIT
 $phone = $_POST['phone'];
 $car_select = $_POST['car-select'];
 $pickup_location = $_POST['pickup-location'];
-$pickup_date = $_POST['pickup-date'];
+//$pickup_date = $_POST['pickup-date'];
 //#$pickup_time = $_POST['pickup-time'];
 //#$dropoff_location = $_POST['dropoff-location'];
 //$dropoff_date = $_POST['dropoff-date'];
 //#$dropoff_time = $_POST['dropoff-time'];
 
 
-$subject = $_POST['name'] . " " . $_POST['car-select'] . " " . "rentalcarsisrael.com";
+$subject = $_POST['name'] . " " . $_POST['phone'] . " " . $_POST['car-select'] . " RU " . "rentalcarsisrael.com";
 //$message = '<html lang="ru"><body>';
 //$message .= '<hr />';
 //$message .= 'Rental car Israel http://www.rentalcarsisrael.com +972-58-7710101';
 //$message .= '<hr />';
 //$message .= '<img src="http://www.rentalcarsisrael.com/images/europcar.jpg" alt="Rental car Israel +972-58-7710101" />';
 //$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
-$message = "\r\nName:" . strip_tags($_POST['name']);
+$message = "\r\nName: " . strip_tags($_POST['name']);
 //$message .= "<tr style='background: #eee;'><td><strong>Last Name:</strong> </td><td>" . strip_tags($_POST['Last_name']) . "</td></tr>";
-$message .= "\r\nEmail " . strip_tags($_POST['email']);
-$message .= "\r\nPhone " . strip_tags($_POST['phone']);
+$message .= "\r\nEmail: " . strip_tags($_POST['email']);
+$message .= "\r\nPhone: " . strip_tags($_POST['phone']);
 $message .= "\r\nCar Category: " . strip_tags($_POST['car-select']);
 $message .= "\r\nPickup location: " . strip_tags($_POST['pickup-location']);
-$message .= "\r\nPickup date: " . strip_tags($_POST['pickup-date']);
+//$message .= "\r\nPickup date: " . strip_tags($_POST['pickup-date']);
 //#$message .= "<tr style='background: #eee;'><td><strong>Pickup time:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
 //#$message .= "<tr style='background: #eee;'><td><strong>Dropoff location:</strong> </td><td>" . strip_tags($_POST['dropoff-location']) . "</td></tr>";
 //#$message .= "<tr style='background: #eee;'><td><strong>Dropoff date:</strong> </td><td>" . strip_tags($_POST['dropoff-date']) . "</td></tr>";
